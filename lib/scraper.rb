@@ -24,6 +24,9 @@ class Scraper
     return self.get_page.css(".#{element}")
   end
   
+  def make_courses
+    
+  
 end
 
 
