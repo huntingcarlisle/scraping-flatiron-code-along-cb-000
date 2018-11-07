@@ -5,11 +5,11 @@ class Course
   
   
   
-  def all
+  def self.all
     return @@all
   end
   
-  def reset_all
+  def self.reset_all
     @@all = []
   end
 end
