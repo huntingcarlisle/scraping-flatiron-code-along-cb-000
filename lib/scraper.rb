@@ -21,7 +21,7 @@ class Scraper
   end
   
   def get_courses(element = "post")
-    
+    return self.get_page.css(".#{element}")
   
 end
 
