@@ -26,7 +26,7 @@ class Scraper
   
   def make_courses
     self.get_courses.each{|element| 
-    Course.new(element.css("h2"), element.css("."))
+    Course.new(element.css("h2"), element.css(".date"), element.css(""))
     }
   end
     
