@@ -20,7 +20,8 @@ class Scraper
     return Nokogiri::HTML(open("#{url}"))
   end
   
-  def get_courses
+  def get_courses(element = "post")
+    
   
 end
 
